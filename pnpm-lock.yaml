@@ -127,7 +127,7 @@ importers:
       mongodb: ^3.6.4
       mongodb-memory-server: ^8.1.0
       typeorm: ^0.3.0
-      vite: ^2.9.8
+      vite: ^3.0.0
       vitest: ^0.16.0
     dependencies:
       vitest: 0.16.0
@@ -138,7 +138,7 @@ importers:
       mongodb: 3.7.3
       mongodb-memory-server: 8.7.2
       typeorm: 0.3.7_axvoegnltdgb65c2br56l6xixi
-      vite: 2.9.13
+      vite: 3.0.0
 
 packages:
 
@@ -5787,6 +5787,34 @@ packages:
       rollup: 2.75.7
     optionalDependencies:
       fsevents: 2.3.2
+    dev: false
+
+  /vite/3.0.0:
+    resolution: {integrity: sha512-M7phQhY3+fRZa0H+1WzI6N+/onruwPTBTMvaj7TzgZ0v2TE+N2sdLKxJOfOv9CckDWt5C4HmyQP81xB4dwRKzA==}
+    engines: {node: '>=14.18.0'}
+    hasBin: true
+    peerDependencies:
+      less: '*'
+      sass: '*'
+      stylus: '*'
+      terser: ^5.4.0
+    peerDependenciesMeta:
+      less:
+        optional: true
+      sass:
+        optional: true
+      stylus:
+        optional: true
+      terser:
+        optional: true
+    dependencies:
+      esbuild: 0.14.48
+      postcss: 8.4.14
+      resolve: 1.22.1
+      rollup: 2.75.7
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: true
 
   /vitest/0.16.0:
     resolution: {integrity: sha512-Ntp6jrM8wf2NMtamMBLkRBBdeqHkgAH/WMh5Xryts1j2ft2D8QZQbiSVFkSl4WmEQzcPP0YM069g/Ga1vtnEtg==}
